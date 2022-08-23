@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.0.0" type="partial_results">
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="attr[actionBarSize(R),colorPrimaryVariant(R)],color[purple_200(U),black(U),teal_200(U),white(U),teal_700(U),purple_700(U),purple_500(U)],dimen[activity_vertical_margin(D),activity_horizontal_margin(D)],drawable[ic_notifications_black_24dp(U),ic_launcher_foreground(U),ic_launcher_background(U),ic_home_black_24dp(U),ic_launcher_foreground_1(R),ic_dashboard_black_24dp(U)],id[container(D),text_dashboard(D),navigation_dashboard(U),navigation_notifications(U),nav_view(U),nav_host_fragment_activity_main(U),text_home(D),navigation_home(U),text_notifications(D),mobile_navigation(D)],layout[fragment_home(U),fragment_dashboard(U),activity_main(U),fragment_notifications(U)],menu[bottom_nav_menu(U)],mipmap[ic_launcher_round(U),ic_launcher(U)],navigation[mobile_navigation(U)],string[title_notifications(U),title_home(U),app_name(U),title_dashboard(U)],style[Theme_MyApplication(U),Theme_MaterialComponents_DayNight_DarkActionBar(R)];c^f,1d^0^1f^15^22,1f^e^24^10^26^b^23,20^d^c,21^d^c,22^18^24^1b^26^1c^23^1e,27^28^8^7^5^4^6^3^1^2;;;"/>
+        <location id="R.dimen.activity_horizontal_margin"
+            file="$APP/src/main/res/values/dimens.xml"
+            line="3"
+            column="12"
+            startOffset="95"
+            endLine="3"
+            endColumn="45"
+            endOffset="128"/>
+        <location id="R.dimen.activity_vertical_margin"
+            file="$APP/src/main/res/values/dimens.xml"
+            line="4"
+            column="12"
+            startOffset="153"
+            endLine="4"
+            endColumn="43"
+            endOffset="184"/>
+    </map>
+
+</incidents>

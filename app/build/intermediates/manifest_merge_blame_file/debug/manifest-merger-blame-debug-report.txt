@@ -1,0 +1,86 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/workspace/Android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/workspace/Android/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/workspace/Android/app/src/main/AndroidManifest.xml:5:5-22:19
+12        android:allowBackup="true"
+12-->/workspace/Android/app/src/main/AndroidManifest.xml:6:13-39
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] /root/.gradle/caches/transforms-3/16324f2bd32dbca90a133e9395d59d77/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/workspace/Android/app/src/main/AndroidManifest.xml:7:13-47
+16        android:label="@string/app_name"
+16-->/workspace/Android/app/src/main/AndroidManifest.xml:8:13-45
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/workspace/Android/app/src/main/AndroidManifest.xml:9:13-58
+18        android:supportsRtl="true"
+18-->/workspace/Android/app/src/main/AndroidManifest.xml:10:13-39
+19        android:theme="@style/Theme.MyApplication" >
+19-->/workspace/Android/app/src/main/AndroidManifest.xml:11:13-55
+20        <activity
+20-->/workspace/Android/app/src/main/AndroidManifest.xml:12:9-21:20
+21            android:name="com.example.myapplication.MainActivity"
+21-->/workspace/Android/app/src/main/AndroidManifest.xml:13:17-45
+22            android:exported="true"
+22-->/workspace/Android/app/src/main/AndroidManifest.xml:14:17-40
+23            android:label="@string/app_name" >
+23-->/workspace/Android/app/src/main/AndroidManifest.xml:15:17-49
+24            <intent-filter>
+24-->/workspace/Android/app/src/main/AndroidManifest.xml:16:13-20:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/workspace/Android/app/src/main/AndroidManifest.xml:17:17-68
+25-->/workspace/Android/app/src/main/AndroidManifest.xml:17:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/workspace/Android/app/src/main/AndroidManifest.xml:19:17-76
+27-->/workspace/Android/app/src/main/AndroidManifest.xml:19:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <provider
+31-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/17ab284551b229514b56da6b4a747302/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+32            android:name="androidx.startup.InitializationProvider"
+32-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/17ab284551b229514b56da6b4a747302/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+33            android:authorities="com.example.myapplication.androidx-startup"
+33-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/17ab284551b229514b56da6b4a747302/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+34            android:exported="false" >
+34-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/17ab284551b229514b56da6b4a747302/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+35            <meta-data
+35-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/17ab284551b229514b56da6b4a747302/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+36                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+36-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/17ab284551b229514b56da6b4a747302/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+37                android:value="androidx.startup" />
+37-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/17ab284551b229514b56da6b4a747302/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+38            <meta-data
+38-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/7bb29a302cb4bd912316c297f269dfd9/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+39                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+39-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/7bb29a302cb4bd912316c297f269dfd9/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+40                android:value="androidx.startup" />
+40-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/7bb29a302cb4bd912316c297f269dfd9/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+41        </provider>
+42
+43        <uses-library
+43-->[androidx.window:window:1.0.0] /root/.gradle/caches/transforms-3/c2294ca9da505c791c35b9ba5839755f/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+44            android:name="androidx.window.extensions"
+44-->[androidx.window:window:1.0.0] /root/.gradle/caches/transforms-3/c2294ca9da505c791c35b9ba5839755f/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+45            android:required="false" />
+45-->[androidx.window:window:1.0.0] /root/.gradle/caches/transforms-3/c2294ca9da505c791c35b9ba5839755f/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+46        <uses-library
+46-->[androidx.window:window:1.0.0] /root/.gradle/caches/transforms-3/c2294ca9da505c791c35b9ba5839755f/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+47            android:name="androidx.window.sidecar"
+47-->[androidx.window:window:1.0.0] /root/.gradle/caches/transforms-3/c2294ca9da505c791c35b9ba5839755f/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+48            android:required="false" />
+48-->[androidx.window:window:1.0.0] /root/.gradle/caches/transforms-3/c2294ca9da505c791c35b9ba5839755f/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+49    </application>
+50
+51</manifest>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/workspace/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_dashboard.xml",
+        "source": "/workspace/Android/app/src/main/res/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "/workspace/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/workspace/Android/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/workspace/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/workspace/Android/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/workspace/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_notifications.xml",
+        "source": "/workspace/Android/app/src/main/res/layout/fragment_notifications.xml"
+    }
+]

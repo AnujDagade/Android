@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.0.0" type="incidents">
+
+    <incident
+        id="FragmentTagUsage"
+        severity="warning"
+        message="Replace the &lt;fragment> tag with FragmentContainerView.">
+        <fix-replace
+            description="Replace with androidx.fragment.app.FragmentContainerView"
+            oldString="fragment"
+            replacement="androidx.fragment.app.FragmentContainerView"/>
+        <location
+            file="$APP/src/main/res/layout/activity_main.xml"
+            line="22"
+            column="6"
+            startOffset="970"
+            endLine="22"
+            endColumn="14"
+            endOffset="978"/>
+    </incident>
+
+    <incident
+        id="GradleDynamicVersion"
+        severity="warning"
+        message="Avoid using + in version numbers; can lead to unpredictable and unrepeatable builds (junit:junit:4.+)">
+        <fix-data coordinate="junit:junit:4.+"/>
+        <location
+            file="$APP/build.gradle"
+            line="42"
+            column="24"
+            startOffset="1184"
+            endLine="42"
+            endColumn="41"
+            endOffset="1201"/>
+    </incident>
+
+</incidents>
