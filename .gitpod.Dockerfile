@@ -1,7 +1,10 @@
-FROM gitpod/workspace-full-vnc
+FROM gitpod/workspace-full
 
 RUN \
   echo "HI"
 
 RUN \
-  sed -i 's/1920x1080/1280x720/' /usr/bin/start-vnc-session.sh
+  sudo apt update && sudo apt upgrade -y
+
+RUN \
+  sudo apt install android-sdk -y
